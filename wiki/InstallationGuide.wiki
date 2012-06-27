@@ -1,0 +1,40 @@
+#summary Installation instructions
+#labels Phase-Requirements
+
+= Introduction =
+
+OAuzz has been developed in Python to be cross-platform; so no real installation is required.
+
+Nevertheless, OAuzz requires external librearies to work. These libraries have to be installed previously.
+
+
+= Details =
+
+The main libraries which are used by OAuzz are:
+
+  * [https://www.dlitz.net/software/pycrypto/ PyCrypto - https://www.dlitz.net/software/pycrypto/]
+  * urllib and urllib2
+  * sqlite3
+  * BaseHTTPServer, urlparse, getpass, random, math, sys and time
+
+From the above list, the only librarie has to be installed is PyCrypto. The rest of them are part of the basic Python installation.
+
+
+===PyCrypto===
+
+   # Download PyCrypto from [https://www.dlitz.net/software/pycrypto/]
+   # Install it (Linux example):
+{{{ 
+# Untar it (x.y must be replaced for the downloaded version)
+$ tar zxvf pycrypto-x.y.tar.gz
+
+# Configure it
+$ cd pycrypto-x.y/
+$ ./configure
+
+# Build it
+$ python setup.py build
+
+# Install it
+$ sudo python setup.py install
+}}}
