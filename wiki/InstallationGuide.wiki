@@ -17,7 +17,7 @@ The main libraries which are used by OAuzz are:
   * sqlite3
   * BaseHTTPServer, urlparse, getpass, random, math, sys and time
 
-From the above list, the only librarie has to be installed is PyCrypto. The rest of them are part of the basic Python installation.
+From the above list, the only library has to be installed is PyCrypto. The rest of them are part of the basic Python installation.
 
 
 === PyCrypto ===
