@@ -20,7 +20,7 @@ The main libraries which are used by OAuzz are:
 From the above list, the only librarie has to be installed is PyCrypto. The rest of them are part of the basic Python installation.
 
 
-===PyCrypto===
+=== PyCrypto ===
 
    # Download PyCrypto from [https://www.dlitz.net/software/pycrypto/]
    # Install it (Linux example):
