@@ -38,3 +38,13 @@ $ python setup.py build
 # Install it
 $ sudo python setup.py install
 }}}
+
+*NOTE*: If during the configuration (./configure step) you have any problem related to 'src/MD2.C' file because 'Python.h' file cannot be found:
+{{{
+src/MD2.c:31:20: fatal error: Python.h: No such file or directory
+}}}
+you have to install python-dev previously:
+{{{
+# Install python-dev if you don't have it
+$ sudo apt-get install python-dev
+}}}
